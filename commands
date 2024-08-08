@@ -1,0 +1,19 @@
+   git init
+   sudo yum update git
+   sudo yum install git -y
+   git init
+   git add .
+   git commit -m  "commit1"
+   git branch s
+   git branch
+   git checkout s
+   git merge s
+   git checkout s
+   git branch
+   git merge s
+   git remote add originhttps://github.com/shekharb23/source-1.git
+   git push master
+   git push s
+   git remote -v
+   git remote remove origin
+   git clonehttps://github.com/shekharb23/source-1.git
